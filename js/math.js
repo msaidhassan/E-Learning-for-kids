@@ -71,7 +71,7 @@ startGameButton.onclick = () => {
   const level = document.getElementById('level').value;
 
   const xhr = new XMLHttpRequest();
-  xhr.open("GET", "../questions.json", false);
+  xhr.open("GET", "questions.json", false);
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
       const data = JSON.parse(xhr.responseText);
