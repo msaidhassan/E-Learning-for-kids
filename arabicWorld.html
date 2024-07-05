@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>Arabic World | GiggleLearn</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/arabicWorld.css">
+    <link rel="shortcut icon" href="assets/science/science/img/Friendly-Bee.svg">
+</head>
+<body>
+    
+    <a href="home.html"><i class="fa-solid fa-arrow-left back-to-home"></i></a>
+    <!-- Ads Section -->
+    <div class="ads">
+        <img id="ad-image" src="" alt="Ad Image">
+        <p id="ad-text"></p>
+        <i class="fa-solid fa-xmark"></i>    
+    </div>
+    <!-- ./Ads Section -->
+
+    <!-- --------------- Map Section ------------------- -->
+    <div class="subjects">
+        
+        <div class="letters">
+            <a href="arabicLetters.html"> 
+                <p class="explore-letters-txt text">مغامرة في عالم الحروف</p>
+                <img src="assets/arabic/img/arabic.png" class="arabic-letters" alt="">
+            </a>
+        </div>
+        <div class="arabic-letters-cards">
+            <a href="cards.html">
+                <p class="arabic-letters-cards-txt text">اختبر ذاكرتك مع الحروف</p>
+                <img src="assets/arabic/img/arabic-letters.png" class="arabic-cards" alt="">
+            </a>
+        </div>
+      
+        <div class="arabic-letters-sound">
+            <a href="#">
+                <p class="arabic-letters-sound-txt text">استكشاف أصوات الحروف العربية</p>
+                <img src="assets/arabic/img/arabic2.png" width="90" alt="">
+            </a>
+        </div>
+        <img class="arabic-img" src="assets/arabic/img/b.png" width="80" alt="">
+   
+    </div>
+
+    <div class="path">
+        <svg id="path1" width="400" height="200">
+            <!-- Define the path with a quadratic Bezier curve -->
+            <path d="M10 20 Q 50 10 50 100 T 350 20" 
+                stroke="black" 
+                stroke-width="2" 
+                fill="none" 
+                stroke-dasharray="5,5"/>
+        </svg>
+        <svg id="path2" width="400" height="200">
+            <!-- Define the path with a quadratic Bezier curve -->
+            <path d="M410 90 Q 300 10 250 100 T 50 10" 
+                stroke="black" 
+                stroke-width="2" 
+                fill="none" 
+                stroke-dasharray="5,5"/>
+        </svg>
+   
+    </div>
+    <!-- -------------./ Map Section ------------------ -->
+    
+    
+    <script>
+
+        // Ads Section
+        let ads = [];
+        let currentAdIndex = 0;
+
+        function fetchAds() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'ads.json', true); // Replace with your API endpoint
+            xhr.onload = function() {
+                if (this.status === 200) {
+                    ads = JSON.parse(this.responseText);
+                    showAd(currentAdIndex);
+                    setInterval(rotateAds, 5000);
+                }
+            };
+            xhr.send();
+        }
+
+        function showAd(index) {
+            if (ads.length > 0) {
+                const adImage = document.getElementById('ad-image');
+                const adText = document.getElementById('ad-text');
+                adImage.src = ads[index].image;
+                adText.textContent = ads[index].text;
+            }
+        }
+
+        function rotateAds() {
+            currentAdIndex = (currentAdIndex + 1) % ads.length;
+            showAd(currentAdIndex);
+        }
+
+        fetchAds();
+    </script>
+</body>
+</html>

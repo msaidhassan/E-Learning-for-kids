@@ -1,0 +1,268 @@
+.audio-mute  {
+    display: block;
+    color: #616059;
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+}
+
+input {
+    font-size: 16px;
+    color: #616059;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* --------- Ads Section ------------- */
+
+.ads {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#ad-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.ads i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: rgb(37, 37, 37);
+    border: 1px solid rgb(79, 79, 79);
+    cursor: pointer;
+}
+#ad-text {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* --------- ./ Ads Section ------------- */
+
+/* --------- Subjects Section ------------- */
+
+.subjects {
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+    position: fixed;
+    background-color: #d6fcc0;
+}   
+
+/*---------------- Space Styles ----------------*/
+.rocket {
+    width: 60px;
+    position: absolute;
+    left: 120px;
+    top: 70px;
+    animation: shake 0.5s ease infinite;
+}
+
+.text {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 99;
+}
+
+.text::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.explore-space-txt {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    background-color: #22baac;
+}
+
+.explore-space-txt::after {
+    top: 43px;
+    left: 80%;
+    border-top: 10px solid  #22baac;
+}
+
+@keyframes shake {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-2px); }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.rock {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 100px;
+}
+
+.rock2 {
+    width: 60px;
+    top: 100px;
+    left: 160px;
+}
+
+.rock3 {
+    top: 100px;
+    left: 100px;
+    width: 90px;
+    z-index: -2;
+
+}
+
+/*------------ Reptile Styles --------------*/
+.reptile {
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    
+}
+
+.reptile .crocodile {
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    z-index: 99;
+}
+
+.reptile .lake {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 200px;
+}
+.reptile-txt {
+    background-color: #228fff;
+
+}
+
+.reptile-txt::after {
+    top: 43px;
+    left: 20%;
+    border-top: 10px solid #228fff;
+}
+
+/*---------------- Animals Styles --------------*/
+.animals {
+    position: absolute;
+    top: 220px; 
+    left: 800px;
+}
+
+.animals-txt {
+    background-color: #ff8b00;
+}
+
+.animals-txt::after {
+    top: 43px;
+    left: 15%;
+    border-top: 10px solid #ff8b00;
+
+}
+
+.panda {
+    animation: move 1s ease-in-out infinite;
+    position: absolute;
+    top: 130px;
+}
+
+
+@keyframes move {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(1px); }
+}
+
+/*------------------  Plants Styles ---------------*/
+.plants {
+    position: absolute;
+    top: 120px;
+    left: 510px;
+}
+
+.ice-land {
+    width: 160px;
+}
+
+.plants img {
+    width: 160px;
+}
+
+.plants-txt {
+    background-color: #81e248;
+}
+
+.plants-txt::after {
+    top: 43px;
+    left: 15%;
+    border-top: 10px solid #81e248;
+}
+
+.bird {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+.rock4 {
+    position: absolute;
+    top: 450px;
+    left: 550px;
+}
+
+.rock5 {
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+
+.rock6 {
+    position: absolute;
+    top: 110px;
+    left: 750px;
+}
+
+/*--------------- Path Styles ----------- */
+.path {
+    position: fixed;
+}
+
+#path1 {
+    position: absolute;
+    top: 320px;
+    left: 210px;
+    transform: rotate(50deg);
+}
+
+#path2 {
+    position: absolute;
+    top: 320px;
+    left: 500px;
+    transform: rotate(-50deg);
+}
+
+#path3 {
+    position: absolute;
+    top: 220px;
+    left: 700px;
+    transform: rotateZ(-360deg);
+}
+

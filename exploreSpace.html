@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/exploreSpace.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg">
+    <title>Explore Space | GiggleLearn</title>
+</head>
+<body>
+
+
+  
+  <div class="container">
+    <div class="planets">
+      <img src="assets/science/svg/sun.svg" alt="Sun" data-info="The Sun is the star at the center of the Solar System. The Sun is about 100 times wider than Earth and about 10 times wider than Jupiter, the biggest planet." data-audio="assets/science/audio/sun.mp3" class="planet" style="top: 300px; left: 510px; width:130px;">
+      <img src="assets/science/svg/mercury.svg" alt="Mercury" data-info="The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter." data-audio="assets/science/audio/mercury.mp3" class="planet" style="top: 220px; left: 650px; transform: rotate(180deg);">
+      <img src="assets/science/svg/venus.svg" alt="Venus" data-info="Venus is the second planet from the Sun, and our closest planetary neighbor. It's the hottest planet in our solar system, and is sometimes called Earth's twin." data-audio="assets/science/audio/venus.mp3" class="planet" style="top: 440px; left: 600px;">
+      <img src="assets/science/svg/earth-planet.svg" alt="Earth" data-info="Earth – our home planet – is the third planet from the Sun, and the fifth largest planet. It's the only place we know of inhabited by living things." data-audio="assets/science/audio/earth.mp3" class="planet" style="top: 200px; left: 820px; width: 80px;">
+      <img src="assets/science/svg/mars.svg" alt="Mars" data-info="Mars – the fourth planet from the Sun – is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons and weather. Mars is known as the Red Planet." data-audio="assets/science/audio/mars.mp3" class="planet" style="top: 420px; left: 820px;">
+      <img src="assets/science/svg/jupiter.svg" alt="Jupiter" data-info="Jupiter is the largest planet in the Solar System. It has the shortest day in the solar system" data-audio="assets/science/audio/jupiter.mp3" class="planet" style="top: 350px; left: 1000px; width: 80px;">
+      <img src="assets/science/svg/saturn.svg" alt="Saturn" data-info="Saturn is the sixth planet from the Sun, and the second-largest planet in our solar system. Saturn is famous for its rings." data-audio="assets/science/audio/saturn.mp3" class="planet" style="top: 400px; left: 200px; width:100px;">
+      <img src="assets/science/svg/urano.svg" alt="Uranus" data-info="Uranus is the seventh planet from the Sun, and it has the third largest diameter of planets in our solar system. Uranus appears to spin sideways." data-audio="assets/science/audio/uranus.mp3" class="planet" style="top: 250px; left: 300px; width:100px;">
+      <img src="assets/science/svg/neptune.svg" alt="Neptune" data-info="Neptune is the farthest planet from the Sun." data-audio="assets/science/audio/neptune.mp3" class="planet" style="top: 140px; left: 200px;">
+      <img src="assets/science/svg/pluto.svg" alt="Pluto" data-info="Pluto is a dwarf planet in the Kuiper belt." data-audio="assets/science/audio/pluto.mp3" class="planet" style="top: 300px; left: 50px;">
+    </div>
+    <!-- Spaceship -->
+    <div class="spacecraft">
+      <img id="spaceship" src="assets/science/svg/spaceship.svg" alt="Spaceship">
+    </div>
+  </div>
+
+  <!-- Info Box -->
+  <div id="infoBox"></div>
+  <audio id="welcomeAudio" src="assets/science/audio/welcome.mp3"></audio> <!-- Welcome audio file -->
+  <div class="arrows">
+    <a href="scienceWorld.html"><i class="fa-solid fa-arrow-left"></i> Back</a>
+    <a href="#">Next <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+
+<!-- ---------- Oval Path between Planets ------ -->
+  <svg width="1200" height="1200" viewBox="0 0 500 500">
+    <ellipse class="oval" cx="250" cy="250" rx="200" ry="100" stroke="red"/>
+    <ellipse class="oval" cx="250" cy="250" rx="150" ry="75" stroke="green"/>
+    <ellipse class="oval" cx="250" cy="250" rx="100" ry="50" stroke="purple"/> 
+  </svg>
+<!-- ---------- Stars in the Space ------ -->
+<div class="stars">
+  <img class="star" src="assets/science/svg/star.svg" alt="">
+  <img class="star star2" src="assets/science/svg/star.svg" alt="">
+  <img class="star star3" src="assets/science/svg/star.svg" alt="">
+  <img class="star star4" src="assets/science/svg/star.svg" alt="">
+</div>
+    
+    <script src="js/exploreSpace.js"></script>
+</body>
+</html>

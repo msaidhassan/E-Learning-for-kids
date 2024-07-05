@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    font-family: "Yusei Magic", sans-serif;
+    background: linear-gradient(#7abbbe, #84cda7);
+
+}
+
+.back-to-home {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+    z-index: 1000;
+	color:rgba(139, 139, 139, 0.5);
+}
+
+.crayon-container {
+    display: flex;
+    gap: 5px;
+    margin: 10px 400px;
+    position: absolute;
+    bottom: 100px;
+    width: 50%;
+}
+
+#canvas{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: -50px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.crayon {
+    width: 35px;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.crayon:hover{
+  transform: translateY(-10px)
+}
+
+#erase{
+    background-color: rgba(161, 235, 109, .6);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px 20px;
+    margin: 0 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a {
+    color:black;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 20px;
+    margin:10px; 
+}

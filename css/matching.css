@@ -1,0 +1,141 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Yusei Magic", sans-serif;
+}
+
+/* Logo Styles */
+.nav-brand {
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+.brand {
+	position: absolute;
+    font-weight: 400;
+	top: 25px;
+	color: #000;
+	font-size: 16px;
+}
+
+#scoreDisplay{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objects-container {
+    width: 80%;
+}
+
+.objects-container, .bins-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(127, 218, 162, 0.2);
+}
+.objects-container{
+    margin-top: 0px;
+
+    
+}
+.bins-container {
+    width: 50%;
+ 
+}
+
+.object {
+    width: 80px;
+    height: 90px;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.object img {
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 10px 10px 0 0;
+}
+
+.object span {
+    position: absolute;
+    bottom: 10px;
+}
+.object:hover  {
+    transform: scale(1.1);
+}
+
+.label {
+    padding: 5px;
+    font-size: 1em;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #f9f1e4;
+    border-radius: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.letter:hover {
+    background-color: #ffffff;
+}
+
+/* --------- Arrows Styles ----------- */
+.arrows {
+    margin-top: 10px;
+    }
+
+.arrows a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+.arrows a:first-child {
+    margin-right: 40px;
+    }
+
+
+    iframe{
+        width: 800px;
+        height: 450px;
+        margin-top: 100px;
+        border-radius: 10px;
+
+    }

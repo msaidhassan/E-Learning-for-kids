@@ -1,0 +1,59 @@
+/* ------------- Global Styles --------------*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	scroll-padding-top: 9rem;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+	width: 0.6rem;
+}
+
+html::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: rgba(139, 139, 139, 0.5);
+	border-radius: 1rem;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+    font-weight: 500;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.back-to-home {
+	position: absolute;
+	top: 20px;
+	left: 220px;
+	color:rgba(139, 139, 139, 0.5);
+	z-index: 1000;
+}
+/* ------x------- Global Styles -------x-------*/

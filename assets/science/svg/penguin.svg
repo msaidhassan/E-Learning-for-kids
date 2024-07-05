@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" viewBox="0 0 720 720" version="1.1" inkscape:version="0.91 r13725">
+  <g id="layer1" transform="translate(0 -332.36)">
+    <path id="path3114" style="stroke:#000000;fill:#000000" d="m476.59 514.29c-0.96489-25.345 5.1884-31.12 5.1884-31.12s5.1884-107.19-114.15-117.56c0 0-127.98-3.4578-119.33 210.93 0 0-148.73 167.7-58.802 340.59l-50.155 88.174 119.33-15.56 29.401 31.12 228.29-6.9156s51.884-53.596-79.556-41.493c0 0 193.7-112.38 22.483-342.32l3.4589-76.071s15.101-6.5377 13.836-39.765z"/>
+    <path id="path3144" style="stroke:#000000;fill:#ffffff" d="m459.29 630.13c-2.7706-3.2313 168.25 207.76-5.1884 309.47 1.4221 3.8492-28.739 2.1628-54.98-30.006-34.894-42.776-59.273-141.46 60.169-279.47z"/>
+    <path id="path3146" style="stroke:#000000;fill:#ffff00" d="m578.63 514.29s-112.42-57.054-138.36 0c-25.942 57.054 155.65 20.747 138.36 0z"/>
+    <path id="path3163" style="fill:#ffffff" d="m445.46 455.51s-22.483-51.867-53.614 1.7289l1.7295 44.951h24.213s-13.836-55.325 27.672-46.68z"/>
+    <path id="path3165" style="fill:#ffff00" d="m258.67 998.38 25.942 27.662 231.75-6.9156c24.045-6.8677 47.349-69.095-88.203-50.138-129.6 18.124-178.14 31.12-169.49 29.391z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>penguin</dc:title>
+        <dc:date>2011-04-23T05:17:10</dc:date>
+        <dc:description>the other black and white meat!</dc:description>
+        <dc:source>https://openclipart.org/detail/133669/penguin-by-10binary</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>10binary</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>penguin</rdf:li>
+            <rdf:li>supertux</rdf:li>
+            <rdf:li>tux</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>Math World | GiggleLearn</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/mathWorld.css">
+    <link rel="shortcut icon" href="assets/science/science/img/Friendly-Bee.svg">
+</head>
+<body>
+    
+    <a href="home.html"><i class="fa-solid fa-arrow-left back-to-home"></i></a>
+    <!-- Ads Section -->
+    <div class="ads">
+        <img id="ad-image" src="" alt="Ad Image">
+        <p id="ad-text"></p>
+        <i class="fa-solid fa-xmark"></i>    
+    </div>
+    <!-- ./Ads Section -->
+
+    <!-- --------------- Map Section ------------------- -->
+    <div class="subjects">
+        
+        <div class="numbers">
+            <a href="math.html"> 
+                <p class="explore-numbers-txt text">Embark on a numerical adventure</p>
+                <img src="assets/math/img/math2.png" class="math" alt="">
+            </a>
+        </div>
+        <div class="math-cards">
+            <a href="mathCards.html">
+                <p class="math-cards-txt text">Shuffle the deck for endless fun!</p>
+                <img src="assets/math/img/cards.png" class="cards" alt="">
+            </a>
+        </div>
+      
+        <div class="galaxy-of-numbers">
+            <a href="#">
+                <p class="galaxy-of-numbers-txt text">Explore the galaxy of math</p>
+                <img src="assets/math/img/math.png"  class="palm" width="90" alt="">
+            </a>
+        </div>
+        <img class="number" src="assets/math/img/numbers.png" width="80" alt="">
+   
+    </div>
+
+    <div class="path">
+        <svg id="path1" width="400" height="200">
+            
+            <path d="M10 20 Q 50 10 50 100 T 350 20" 
+                stroke="black" 
+                stroke-width="2" 
+                fill="none" 
+                stroke-dasharray="5,5"/>
+        </svg>
+        <svg id="path2" width="400" height="200">
+       
+            <path d="M410 90 Q 300 10 250 100 T 20 10" 
+                stroke="black" 
+                stroke-width="2" 
+                fill="none" 
+                stroke-dasharray="5,5"/>
+        </svg>
+   
+    </div>
+    <!-- -------------./ Map Section ------------------ -->
+    
+    
+    <script>
+
+        // Ads Section
+        let ads = [];
+        let currentAdIndex = 0;
+
+        function fetchAds() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'ads.json', true); 
+            xhr.onload = function() {
+                if (this.status === 200) {
+                    ads = JSON.parse(this.responseText);
+                    showAd(currentAdIndex);
+                    setInterval(rotateAds, 5000);
+                }
+            };
+            xhr.send();
+        }
+
+        function showAd(index) {
+            if (ads.length > 0) {
+                const adImage = document.getElementById('ad-image');
+                const adText = document.getElementById('ad-text');
+                adImage.src = ads[index].image;
+                adText.textContent = ads[index].text;
+            }
+        }
+
+        function rotateAds() {
+            currentAdIndex = (currentAdIndex + 1) % ads.length;
+            showAd(currentAdIndex);
+        }
+
+        fetchAds();
+    </script>
+</body>
+</html>

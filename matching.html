@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matching Game | GiggleLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/matching.css" />
+    <link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg" />
+  </head>
+  <body>
+    <div class="nav-brand">
+      <a href="home.html"
+        ><img
+          src="assets/science/img/Friendly-Bee.svg"
+          width="70"
+          alt="Get Brands"
+      /></a>
+      <a href="home.html"><span class="brand">GiggleLearn</span></a>
+    </div>
+
+    <p id="scoreDisplay">Score: 0</p>
+    <div class="game-container">
+      <div class="objects-container">
+        <div class="object" data-letter="A">
+          <img src="assets/english/img/apple.jpg" alt="Apple" />
+          <span class="label">Apple</span>
+        </div>
+        <div class="object" data-letter="B">
+          <img src="assets/english/img/book.png" alt="Book" />
+          <span class="label">Book</span>
+        </div>
+        <div class="object" data-letter="C">
+          <img src="assets/english/img/car.webp" alt="Car" />
+          <span class="label">Car</span>
+        </div>
+        <div class="object" data-letter="D">
+          <img src="assets/english/img/dog.png" alt="Dog" />
+          <span class="label">Dog</span>
+        </div>
+        <div class="object" data-letter="E">
+          <img src="assets/english/img/elephant.png" alt="Elephant" />
+          <span class="label">Elephant</span>
+        </div>
+        <div class="object" data-letter="F">
+          <img src="assets/english/img/fish.png" alt="Fish" />
+          <span class="label">Fish</span>
+        </div>
+        <div class="object" data-letter="G">
+          <img src="assets/english/img/gift.png" alt="Gift" />
+          <span class="label">Gift</span>
+        </div>
+        <div class="object" data-letter="H">
+          <img src="assets/english/img/hat.png" alt="Hat" />
+          <span class="label">Hat</span>
+        </div>
+        <div class="object" data-letter="I">
+          <img src="assets/english/img/icecream.jpg" alt="Icecream" />
+          <span class="label">Icecream</span>
+        </div>
+        <div class="object" data-letter="J">
+          <img src="assets/english/img/jar.jpg" alt="Jar" />
+          <span class="label">Jar</span>
+        </div>
+        <div class="object" data-letter="K">
+          <img src="assets/english/img/key.png" alt="Key" />
+          <span class="label">Key</span>
+        </div>
+        <div class="object" data-letter="L">
+          <img src="assets/english/img/lion.webp" alt="Lion" />
+          <span class="label">Lion</span>
+        </div>
+        <div class="object" data-letter="M">
+          <img src="assets/english/img/music.jpg" alt="Music" />
+          <span class="label">Music</span>
+        </div>
+        <div class="object" data-letter="N">
+          <img src="assets/english/img/nurse.png" alt="Nurse" />
+          <span class="label">Nurse</span>
+        </div>
+        <div class="object" data-letter="O">
+          <img src="assets/english/img/owl.jpg" alt="Owl" />
+          <span class="label">Owl</span>
+        </div>
+        <div class="object" data-letter="P">
+          <img src="assets/english/img/pen.jpg" alt="pen" />
+          <span class="label">Pen</span>
+        </div>
+        <div class="object" data-letter="Q">
+          <img src="assets/english/img/queen.png" alt="Queen" />
+          <span class="label">Queen</span>
+        </div>
+        <div class="object" data-letter="R">
+          <img src="assets/english/img/rock.png" alt="Rock" />
+          <span class="label">Rock</span>
+        </div>
+        <div class="object" data-letter="S">
+          <img src="assets/english/img/star.jpg" alt="Star" />
+          <span class="label">Star</span>
+        </div>
+        <div class="object" data-letter="T">
+          <img src="assets/english/img/tomato.png" alt="Tomato" />
+          <span class="label">Tomato</span>
+        </div>
+        <div class="object" data-letter="U">
+          <img src="assets/english/img/u.png" alt="Unicorn" />
+          <span class="label">Unicorn</span>
+        </div>
+        <div class="object" data-letter="V">
+          <img src="assets/english/img/Volcano.jpg" alt="Volcano" />
+          <span class="label">Volcano</span>
+        </div>
+        <div class="object" data-letter="W">
+          <img src="assets/english/img/worm.JPG" alt="Worm" />
+          <span class="label">Worm</span>
+        </div>
+        <div class="object" data-letter="X">
+          <img src="assets/english/img/Xylophone.jpg" alt="Xylophone" />
+          <span class="label">Xylophone</span>
+        </div>
+        <div class="object" data-letter="Y">
+          <img src="assets/english/img/yoga.jpg" alt="Yoga" />
+          <span class="label">Yoga</span>
+        </div>
+        <div class="object" data-letter="Z">
+          <img src="assets/english/img/Zucchini.jpg" alt="Zucchini" />
+          <span class="label">Zucchini</span>
+        </div>
+      </div>
+
+      <div class="bins-container">
+        <div class="letter" data-bin="A">A</div>
+        <div class="letter" data-bin="B">B</div>
+        <div class="letter" data-bin="C">C</div>
+        <div class="letter" data-bin="D">D</div>
+        <div class="letter" data-bin="E">E</div>
+        <div class="letter" data-bin="F">F</div>
+        <div class="letter" data-bin="G">G</div>
+        <div class="letter" data-bin="H">H</div>
+        <div class="letter" data-bin="I">I</div>
+        <div class="letter" data-bin="J">J</div>
+        <div class="letter" data-bin="K">K</div>
+        <div class="letter" data-bin="L">L</div>
+        <div class="letter" data-bin="M">M</div>
+        <div class="letter" data-bin="N">N</div>
+        <div class="letter" data-bin="O">O</div>
+        <div class="letter" data-bin="P">P</div>
+        <div class="letter" data-bin="Q">Q</div>
+        <div class="letter" data-bin="R">R</div>
+        <div class="letter" data-bin="S">S</div>
+        <div class="letter" data-bin="T">T</div>
+        <div class="letter" data-bin="U">U</div>
+        <div class="letter" data-bin="V">V</div>
+        <div class="letter" data-bin="W">W</div>
+        <div class="letter" data-bin="X">X</div>
+        <div class="letter" data-bin="Y">Y</div>
+        <div class="letter" data-bin="Z">Z</div>
+      </div>
+      <br />
+    </div>
+    <div class="arrows">
+      <a href="englishWorld.html"><< Back</a>
+      <a href="englishAlphabet.html">Next >></a>
+    </div>
+
+    <script src="js/matching.js"></script>
+  </body>
+</html>

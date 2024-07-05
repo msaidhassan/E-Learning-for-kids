@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+  height: 700px;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+
+.planets img {
+  position: absolute;
+  width: 75px;
+}
+
+#spaceship {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50px; 
+  left: 0; 
+  transition: transform 2s;
+}
+
+#infoBox {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: none;
+  z-index: 1000;
+}
+
+/* -------------- Oval Path ------------ */
+svg {
+  position: absolute;
+  z-index: -2;
+}
+
+.oval {
+  fill: none;
+  stroke-width: 0.4;
+}
+
+/* -------------- Stars ------------ */
+.stars {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 20px;
+}
+
+.star {
+  transform: translateX(100px);
+}
+.star2 {
+  transform: translateY(300px);
+}
+
+.star3 {
+  transform: translateX(1000px);
+}
+
+.star4 {
+  transform: translateX(900px);
+}
+
+/* --------- Arrows Styles ----------- */
+.arrows {
+  margin-top: 20px;
+}
+
+.arrows a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.arrows a:first-child {
+  margin-right: 50px;
+}
+
+

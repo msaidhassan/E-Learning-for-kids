@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لعبة الذاكرة بالحروف العربية | GiggleLearn</title>
+  <link rel="stylesheet" href="css/cards.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="nav-brand">
+    <a href="home.html"><img src="assets/science/img/Friendly-Bee.svg"  width="70" alt="Get Brands"></a>
+    <a href="home.html"><span class="brand">GiggleLearn</span></a>
+  </div>
+  <div class="memory-game">
+    <div class="controls">
+      <label for="difficulty">اختر مستوى الصعوبة:</label>
+      <select id="difficulty">
+        <option value="easy">سهل</option>
+        <option value="medium">متوسط</option>
+        <option value="hard">صعب</option>
+      </select>
+      <button id="startButton">ابدأ اللعبة</button>
+      <button id="hintButton" disabled>تلميح</button>
+    </div>
+    <div class="timer">الوقت: <span id="timer">00:00</span></div>
+    <div class="cards-container" id="cardsContainer">
+      <!-- بطاقات الحروف العربية ستكون هنا -->
+    </div>
+  </div>
+  <div class="arrows">
+    <a href="arabicWorld.html"><< Back</a>
+    <a href="arabicLetters.html">Next >></a>
+  </div>
+  <script src="js/cards.js"></script>
+</body>
+</html>

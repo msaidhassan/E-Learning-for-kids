@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reptile World | GiggleLearn</title>
+    <link rel="stylesheet" href="css/reptileGame.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg">
+</head>
+<body>
+  <div class="nav-brand">
+    <a href="home.html"><img src="assets/science/img/Friendly-Bee.svg" width="70" alt="Get Brands"></a>
+    <a href="home.html"><span class="brand">GiggleLearn</span></a>
+  </div>
+  
+  <div class="app">
+    <h1>Which reptile is this?</h1>
+    <div class="question"></div>
+    <div class="whole-body">
+      <img id="reptile-image" src="" alt="Reptile Image">
+    </div>
+    <div class="bingo">
+      Hooray!
+      <span class="again">Play Again</span>
+    </div>
+    <div class="selector">
+      <span class="slider"></span>
+      <span class="face">🦎</span>    
+      <span class="face">🐍</span>
+      <span class="face">🐢</span>
+      <span class="face">🐊</span>
+
+    </div>
+  </div>
+
+  <div id="score-popup" class="popup">
+    <div class="popup-content">
+      <p id="score"></p>
+      <p id="end-message"></p>
+      <span id="close-score-popup" class="close">&times;</span>
+      <!-- <h2>Game Over</h2> -->
+      <!-- <p>Your score is: <span id="score"></span></p> -->
+      <button id="play-again">Play Again</button>
+    </div>
+  </div>
+
+  <audio id="gecko-sound" src="assets/science/audio/gecko.mp3"></audio>
+  <audio id="snake-sound" src="assets/science/audio/snake.mp3"></audio>
+  <audio id="turtle-sound" src="assets/science/audio/turtle.mp3"></audio>
+  <audio id="swamp-sound" src="assets/science/audio/crocodile.mp3"></audio>
+  <!-- Ads Section -->
+  <div class="ads">
+      <img id="ad-image" src="" alt="Ad Image">
+      <p id="ad-text"></p>
+      <i class="fa-solid fa-xmark"></i>    
+  </div>
+  <!-- ./Ads Section -->
+
+  <audio id="correct-sound" src="assets/science/audio/correct2.mp3"></audio>
+  <audio id="wrong-sound" src="assets/science/audio/wrong.mp3"></audio>
+  <script src="js/reptileGame.js"></script>
+  <script>
+    // Ads Section
+    let ads = [];
+        let currentAdIndex = 0;
+
+        function fetchAds() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'ads.json', true); // Replace with your API endpoint
+            xhr.onload = function() {
+                if (this.status === 200) {
+                    ads = JSON.parse(this.responseText);
+                    showAd(currentAdIndex);
+                    setInterval(rotateAds, 5000);
+                }
+            };
+            xhr.send();
+        }
+
+        function showAd(index) {
+            if (ads.length > 0) {
+                const adImage = document.getElementById('ad-image');
+                const adText = document.getElementById('ad-text');
+                adImage.src = ads[index].image;
+                adText.textContent = ads[index].text;
+            }
+        }
+
+        function rotateAds() {
+            currentAdIndex = (currentAdIndex + 1) % ads.length;
+            showAd(currentAdIndex);
+        }
+
+        fetchAds();
+  </script>
+</body>
+</html>

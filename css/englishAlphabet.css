@@ -1,0 +1,92 @@
+
+body {
+    font-family: "Yusei Magic", sans-serif;
+    margin: 100px;
+    padding: 0;
+    background: linear-gradient(#397a7b, #59b083);
+    text-align: center;
+}
+
+/*------------ Logo Styles  -------------*/
+.nav-brand {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.nav-brand .brand {
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    color: #d9d9d9;
+}
+
+#container {
+    max-width: 900px; 
+    margin: 20px auto;
+    padding: 20px; 
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 35px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.letter {
+    display: inline-block;
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center;
+    background-color: #d9d9d9; 
+    color: #000000; 
+    border-radius: 15px;
+    margin: 5px; 
+    font-size: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+}
+
+.letter:hover {
+    transform: scale(1.2);
+    background-color: rgba(252, 248, 132, .2);
+}
+
+
+
+.letters-top, .letters-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    font-size: 3em;
+    height: 300px;
+    text-align: center;
+    margin: 20px auto;
+    background-color:rgba(243, 243, 243, 0.1);
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+p{
+    margin:10px;
+    transition: transform 0.3s ease; 
+
+}
+
+a {
+    color:black;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 20px;
+    margin:10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.arrows {
+    margin-top: -20px;
+}
+.arrows a {
+    color: #d9d9d9;
+    
+}

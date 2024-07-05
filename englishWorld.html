@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg" />
+    <title>English World | GiggleLearn</title>
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/englishWorld.css" />
+    <link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg">
+  </head>
+  <body>
+      <a href="home.html"><i class="fa-solid fa-arrow-left back-to-home"></i></a>
+      <!-- Ads Section -->
+      <div class="ads">
+        <img id="ad-image" src="" alt="Ad Image">
+        <p id="ad-text"></p>
+        <i class="fa-solid fa-xmark"></i>    
+    </div>
+    <!-- ./Ads Section -->
+
+    <img src="assets/english/img/MAP.JPG" usemap="#image-map" />
+
+    <map name="image-map">
+      <area
+        target="_blank"
+        alt=""
+        title=" Let's sing the ABCs! 
+        Join us on a fun-filled adventure with the alphabet song! From A to Z"
+        href="abcSong.html"
+        coords="153,104,176,147,154,182,176,195,215,203,237,240,225,272,201,295,169,282,134,288,111,288,63,295,71,211,65,188,82,166,59,138,92,114,132,102,134,100,152,104"
+        shape="poly"
+      />
+      <area
+        target="_blank"
+        alt=""
+        title="Get ready to count and sing!
+        Our numbers song will take you on an exciting journey from 1 to 10"
+        href="lettersSong.html"
+        coords="267,682,434,502"
+        shape="rect"
+      />
+      <area target="" alt="" title="Welcome to the Alphabet Matching Adventure!
+      Can you match the pictures with their starting letters? Let's play and
+      learn together!" href="matching.html" coords="609,405,748,230"
+      shape="rect">
+      <area
+        target=""
+        alt=""
+        title="Are you ready to dive into a magical world of letters?  With just a click, you can make your favorite letters come to life with sounds and pictures."
+        href="englishAlphabet.html"
+        coords="1151,438,1134,418,1096,398,1092,355,1048,349,1009,352,968,352,941,358,903,355,896,376,881,415,892,433,920,472,928,490,928,542,1119,545,1128,496,1153,483"
+        shape="poly"
+      />
+    </map>
+    <script>
+       // Ads Section
+       let ads = [];
+        let currentAdIndex = 0;
+
+        function fetchAds() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'ads.json', true); // Replace with your API endpoint
+            xhr.onload = function() {
+                if (this.status === 200) {
+                    ads = JSON.parse(this.responseText);
+                    showAd(currentAdIndex);
+                    setInterval(rotateAds, 5000);
+                }
+            };
+            xhr.send();
+        }
+
+        function showAd(index) {
+            if (ads.length > 0) {
+                const adImage = document.getElementById('ad-image');
+                const adText = document.getElementById('ad-text');
+                adImage.src = ads[index].image;
+                adText.textContent = ads[index].text;
+            }
+        }
+
+        function rotateAds() {
+            currentAdIndex = (currentAdIndex + 1) % ads.length;
+            showAd(currentAdIndex);
+        }
+
+        fetchAds();
+    </script>
+  </body>
+</html>

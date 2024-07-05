@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="Layer_1"
+    xml:space="preserve"
+    viewBox="0 0 415.76001 551.409"
+    version="1.1"
+    y="0px"
+    x="0px"
+    enable-background="new 0 0 792 612"
+  >
+<g
+      id="g3"
+      transform="translate(-348.3 -39.939)"
+    >
+	<g
+        id="g5"
+        stroke="#000"
+        fill="#6ebe44"
+      >
+		<path
+          id="path7"
+          d="m519.21 489.18-10.124 50.132h0.341c2.802 11.587 23.171 20.58 47.897 20.58s45.096-8.993 47.897-20.58h0.341l-9.528-50.132h-76.82z"
+      />
+		<path
+          id="path9"
+          d="m519.21 482.07-10.124 50.132h0.341c2.802 11.586 23.171 20.58 47.897 20.58s45.096-8.994 47.897-20.58h0.341l-9.528-50.132h-76.82z"
+      />
+		<path
+          id="path11"
+          d="m519.21 474.96-10.124 50.132h0.341c2.802 11.587 23.171 20.58 47.897 20.58s45.096-8.993 47.897-20.58h0.341l-9.528-50.132h-76.82z"
+      />
+		<path
+          id="path13"
+          d="m519.21 467.84-10.124 50.132h0.341c2.802 11.587 23.171 20.58 47.897 20.58s45.096-8.993 47.897-20.58h0.341l-9.528-50.132h-76.82z"
+      />
+	</g
+    >
+	<g
+        id="g15"
+      >
+		<g
+          id="g17"
+        >
+			<path
+            id="path19"
+            d="m462.22 412.48v-39.195c-8.133-2.579-16.762-3.983-25.712-3.983-48.44 0-87.709 40.664-87.709 90.826 0 16.446 4.227 31.865 11.608 45.17l53.272 85.547c-0.808-4.601-20.185-94.884-20.185-99.725 0-40.901 30.116-74.547 68.726-78.64z"
+            stroke="#000"
+            stroke-miterlimit="10"
+            fill="#38b881"
+        />
+			<path
+            id="path21"
+            d="m650.14 412.48v-39.195c8.134-2.579 16.763-3.983 25.712-3.983 48.44 0 87.71 40.664 87.71 90.826 0 16.446-4.227 31.865-11.608 45.17l-53.272 85.547c0.809-4.601 20.185-94.884 20.185-99.725-0.002-40.901-30.117-74.547-68.727-78.64z"
+            stroke="#000"
+            stroke-miterlimit="10"
+            fill="#38b881"
+        />
+			<g
+            id="g23"
+            stroke="#000"
+            stroke-miterlimit="10"
+          >
+				<path
+              id="path25"
+              d="m642.39 281.89c-24.51-114.87-85.07-114.38-85.07-114.38s-60.555-0.481-85.066 114.38c-24.512 114.86-24.031 81.703-12.977 124.48 11.054 42.773 41.812 99.965 41.812 99.965s10.094 2.404 15.38 4.326c5.287 1.923 40.852 9.543 40.852 9.543s35.564-7.62 40.851-9.543c5.286-1.922 15.379-4.326 15.379-4.326s30.759-57.191 41.813-99.965c11.052-42.773 11.532-9.611-12.978-124.48z"
+              fill="#22baac"
+          />
+				<g
+              id="g27"
+            >
+					<circle
+                id="circle29"
+                d="m 601.05898,265.56 c 0,24.15417 -19.58083,43.735 -43.73501,43.735 -24.15417,0 -43.735,-19.58083 -43.735,-43.735 0,-24.15418 19.58083,-43.735 43.735,-43.735 24.15418,0 43.73501,19.58082 43.73501,43.735 z"
+                cy="265.56"
+                cx="557.32"
+                r="43.735"
+                fill="#f15f7c"
+            />
+					<circle
+                id="circle31"
+                d="m 597.76797,265.56 c 0,22.3366 -18.10739,40.444 -40.444,40.444 -22.3366,0 -40.444,-18.1074 -40.444,-40.444 0,-22.33661 18.1074,-40.444 40.444,-40.444 22.33661,0 40.444,18.10739 40.444,40.444 z"
+                cy="265.56"
+                cx="557.32"
+                r="40.444"
+                fill="#fff"
+            />
+					<circle
+                id="circle33"
+                d="m 589.21498,265.56 c 0,17.61291 -14.27809,31.891 -31.89101,31.891 -17.61291,0 -31.891,-14.27809 -31.891,-31.891 0,-17.61292 14.27809,-31.891 31.891,-31.891 17.61292,0 31.89101,14.27808 31.89101,31.891 z"
+                cy="265.56"
+                cx="557.32"
+                r="31.891"
+                fill="#00aebf"
+            />
+				</g
+          >
+			</g
+        >
+			<path
+            id="path35"
+            d="m648.21 385.15-69.207 14.898-3.845 54.309s-13.564 62.479-12.123 61.998 48.169-12.977 48.169-12.977l24.991-55.028 20.666-65.604-8.651 2.404z"
+            stroke="#000"
+            stroke-miterlimit="10"
+            fill="#38b881"
+        />
+			<rect
+            id="rect37"
+            height="219.14"
+            width="5.767"
+            stroke="#000"
+            stroke-miterlimit="10"
+            y="371.71"
+            x="554.44"
+            fill="#38b881"
+        />
+			<path
+            id="path39"
+            fill="#fff"
+            d="m534.73 269.77c3.423-13.553 13.787-23.407 26.045-23.407 8.713 0 16.459 4.99 21.446 12.737 0.42 0.065 0.844 0.122 1.261 0.195-4.146-11.875-13.808-20.206-25.077-20.206-15.046 0-27.244 14.847-27.244 33.161 0 0.098 0.007 0.193 0.008 0.29 1.145-0.961 2.328-1.891 3.561-2.77z"
+        />
+		</g
+      >
+		<g
+          id="g41"
+          stroke="#000"
+          fill="#6ebe44"
+        >
+			<ellipse
+            id="ellipse43"
+            d="m 562.74,45.501999 c 0,2.796218 -2.42528,5.063 -5.417,5.063 -2.99173,0 -5.417,-2.266782 -5.417,-5.063 0,-2.796218 2.42527,-5.063 5.417,-5.063 2.99172,0 5.417,2.266782 5.417,5.063 z"
+            rx="5.417"
+            ry="5.063"
+            cy="45.502"
+            cx="557.32"
+        />
+			<g
+            id="g45"
+          >
+				<polygon
+              id="polygon47"
+              points="549.51 168.82"
+          />
+				<path
+              id="path49"
+              d="m559.72 110.98c0-31.945 2.425-57.841 5.417-57.841v-5.092h-15.621v5.092h0.001c2.991 0 5.416 25.896 5.416 57.841 0 31.947-2.425 57.844-5.416 57.844l7.81 3.459 7.811-3.459c-2.993 0-5.418-25.897-5.418-57.844z"
+          />
+			</g
+        >
+		</g
+      >
+	</g
+    >
+</g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ><dc:title
+          >Futuristic Rocket</dc:title
+        ><dc:date
+          >2013-08-22T17:55:32</dc:date
+        ><dc:description
+          >Here is a cartoon style rocket ship perfect for birthday cards and various other types of works.</dc:description
+        ><dc:source
+          >https://openclipart.org/detail/182115/futuristic-rocket-by-azieser-182115</dc:source
+        ><dc:creator
+          ><cc:Agent
+            ><dc:title
+              >azieser</dc:title
+            ></cc:Agent
+          ></dc:creator
+        ><dc:subject
+          ><rdf:Bag
+            ><rdf:li
+              >Cartoon</rdf:li
+            ><rdf:li
+              >Future</rdf:li
+            ><rdf:li
+              >Mars</rdf:li
+            ><rdf:li
+              >Rocket</rdf:li
+            ><rdf:li
+              >Space</rdf:li
+            ></rdf:Bag
+          ></dc:subject
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>

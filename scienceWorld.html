@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>Science World | GiggleLearn</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/scienceWorld.css">
+    <link rel="shortcut icon" href="assets/science/science/img/Friendly-Bee.svg">
+</head>
+<body onload="playAudio()">
+    
+    <a href="home.html"><i class="fa-solid fa-arrow-left back-to-home"></i></a>
+    <!-- Ads Section -->
+    <div class="ads">
+        <img id="ad-image" src="" alt="Ad Image">
+        <p id="ad-text"></p>
+        <i class="fa-solid fa-xmark"></i>    
+    </div>
+    <!-- ./Ads Section -->
+
+    <!-- --------------- Map Section ------------------- -->
+    <div class="subjects">
+        
+        <div class="space">
+            <a href="exploreSpace.html"> 
+                <p class="explore-space-txt text">Explore our Solar System</p>
+                <img src="assets/science/svg/rocket.svg" class="rocket" alt="">
+                <img src="assets/science/svg/rock.svg" class="rock" alt="">
+                <img src="assets/science/svg/rock2.svg" class="rock rock2" alt="">
+                <img src="assets/science/svg/rock3.svg" class="rock rock3" alt="">
+
+            </a>
+        </div>
+        <div class="reptile">
+            <a href="reptileGame.html">
+                <p class="reptile-txt text">Have Fun with Reptiles</p>
+                <img src="assets/science/svg/crocodile.svg" class="crocodile" alt="">
+                <img src="assets/science/svg/sea.svg" class="lake" alt="">
+            </a>
+        </div>
+        <div class="animals">
+            <a href="#">
+                <p class="animals-txt text">Journey into Animal World</p>
+                <img src="assets/science/svg/panda.svg" class="panda" width="70" alt="">
+                <img src="assets/science/svg/ice-land.svg" class="ice-land" alt="">
+            </a>
+        </div>
+        <div class="plants">
+            <a href="#">
+                <p class="plants-txt text">Meet Earth’s Green Gems</p>
+                <img src="assets/science/svg/plant-land.svg"  class="palm" width="90" alt="">
+            </a>
+        </div>
+        <img class="bird" src="assets/science/svg/bird1.svg" width="80" alt="">
+        <img class="rock4" src="assets/science/svg/rock4.svg" width="150" alt="">
+        <img class="rock5" src="assets/science/svg/rock5.svg" width="100" alt="">
+        <img class="rock6" src="assets/science/svg/rock6.svg" width="100" alt="">
+        
+    </div>
+    <audio src="assets/science/audio/groovy-ambient-funk-201745.mp3" id="audio1"></audio> 
+    <a class="audio-mute" href="#">
+        <i class="fa-solid fa-volume-high volume"></i>
+        <i class="fa-solid fa-volume-xmark mute" style="display: none;"></i>
+        <input type="button" value="Mute" onclick="pauseAudio()">
+    </a>
+    <div class="path">
+        <svg id="path1" width="400" height="200">
+            <!-- Define the path with a quadratic Bezier curve -->
+            <path d="M2 20 Q 50 10 50 100 T 280 80" 
+                stroke="black" 
+                stroke-width="2" 
+                fill="none" 
+                stroke-dasharray="5,5"/>
+        </svg>
+        <svg id="path2" width="400" height="200">
+            <!-- Define the path with a quadratic Bezier curve -->
+            <path d="M350 90 Q 300 10 250 100 T 50 40" 
+                stroke="black" 
+                stroke-width="2" 
+                fill="none" 
+                stroke-dasharray="5,5"/>
+        </svg>
+        <svg id="path3" width="400" height="200">
+            <!-- Define the path with a quadratic Bezier curve -->
+            <path d="M350 120 Q 180 10 200 80 T 100 70" 
+                stroke="black" 
+                stroke-width="2" 
+                fill="none" 
+                stroke-dasharray="5,5"/>
+        </svg>
+    </div>
+    <!-- -------------./ Map Section ------------------ -->
+    
+    
+    <script>
+        // Audio
+
+        function playAudio() {
+            document.getElementById("audio1").play()
+        }
+
+        function pauseAudio() {
+            document.getElementById("audio1").pause();
+            document.querySelector(".volume").style.display = "none";
+            document.querySelector(".mute").style.display = "inline-block";
+
+        }
+
+        // Ads Section
+        let ads = [];
+        let currentAdIndex = 0;
+
+        function fetchAds() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'ads.json', true); // Replace with your API endpoint
+            xhr.onload = function() {
+                if (this.status === 200) {
+                    ads = JSON.parse(this.responseText);
+                    showAd(currentAdIndex);
+                    setInterval(rotateAds, 5000);
+                }
+            };
+            xhr.send();
+        }
+
+        function showAd(index) {
+            if (ads.length > 0) {
+                const adImage = document.getElementById('ad-image');
+                const adText = document.getElementById('ad-text');
+                adImage.src = ads[index].image;
+                adText.textContent = ads[index].text;
+            }
+        }
+
+        function rotateAds() {
+            currentAdIndex = (currentAdIndex + 1) % ads.length;
+            showAd(currentAdIndex);
+        }
+
+        fetchAds();
+    </script>
+</body>
+</html>

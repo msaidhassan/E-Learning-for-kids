@@ -1,0 +1,112 @@
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.logo .brand {
+    position: absolute;
+    top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.register {
+    width: 30rem;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 2rem 0;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(47, 46, 65, 0.5);
+    border-radius: 5px;
+}
+
+.register .individual {
+    font-size: 18px;
+    font-weight: normal;
+    color: #999;
+
+}
+
+form {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.input-div {
+    margin: 1.4rem 0;
+    margin-bottom: 0;
+}
+
+.input-div .input {
+    display: block;
+	width: 63%;
+	height: 48px;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	font-family: 'Poppins', sans-serif;
+	margin: .6rem auto;
+	border: none;
+    outline: none;
+    border: 1px solid #999;
+}
+
+.input-div div h5 {
+    color: #777;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -10.3rem;
+}
+
+.input-div .first, .input-div .last {
+    margin-left: -14rem;
+}
+
+.input-div .eye {
+    color: #ff8b00;
+    position: relative;
+    bottom: 2.8rem;
+    left: 8rem;
+    cursor: pointer;
+}
+
+.input-div .eye-visible {
+    display: none;
+}
+
+.register-btn {
+	display: block;
+	width: 63%;
+	height: 48px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	background: #ff8b00;
+	font-size: 1.1rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	margin: .5rem auto;
+	cursor: pointer;
+	transition: .5s;
+    text-align: center;
+}
+
+.login {
+    color: #ff8b00;
+    font-size: 15px;
+}
+
+.account {
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+}
+
+
+

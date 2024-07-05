@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Adventure Island | GiggleLearn</title>
+  <link rel="stylesheet" href="css/math.css">
+  <link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg">
+</head>
+
+<body>
+  <div class="nav-brand">
+    <a href="home.html"><img src="assets/science/img/Friendly-Bee.svg"  width="70" alt="Get Brands"></a>
+    <a href="home.html"><span class="brand">GiggleLearn</span></a>
+  </div>
+
+  <div id="loading" class="loading">
+    <h3>Loading</h3>
+  </div>
+  <div id="loader" class="loader"></div>
+
+  <div id="game-container" style="display: none;">
+     <img src="assets/math/img/speaker.png" id="mute-image" style="width: 20px;"> 
+    <h1>Math Adventure Island</h1>
+
+    <!-- Popup for grade and difficulty selection -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Welcome To Math game </h2>
+          <h3> Select Grade and Level</h3>
+        </div>
+        <div class="modal-body">
+          <div>
+            <label for="grade">Grade:</label>
+            <select id="grade">
+              <option value="Primary">Primary (K-2)</option>
+              <option value="Upper Elementary">Upper Elementary (3-5)</option>
+              <option value="Middle School">Middle School (6-8)</option>
+              <option value="High School">High School (9-12)</option>
+            </select>
+          </div>
+          <div>
+            <label for="level">Level:</label>
+            <select id="level">
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+        </div>
+        <button id="start-game">Start Game</button>
+      </div>
+    </div>
+
+    <canvas id="game-canvas" width="400" height="200"></canvas>
+
+    <div id="question-container" style="display: none;">
+      <p id="question"></p>
+      <div id="answers"></div>
+    </div>
+    <div id="progress-container" style="display: none;">
+      <div id="progress-bar"></div>
+    </div>
+    <div id="feedback"></div>
+    <div id="score-container" style="display: none;">
+      <p>Score: <span id="score">0</span></p>
+    </div>
+  </div>
+  <div class="arrows" style="display: none;">
+    <a href="mathWorld.html"><< Back</a>
+    <a href="mathCards.html">Next >></a>
+  </div>
+  <script src="js/math.js"></script>
+</body>
+
+</html>

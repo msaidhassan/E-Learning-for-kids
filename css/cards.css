@@ -1,0 +1,174 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/arabic/img/background3.jp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  width: 100%;
+  height: 100%;
+}
+
+
+/*------------ Logo Styles  -------------*/
+.nav-brand {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.nav-brand .brand {
+  position: absolute;
+  top: 25px;
+  color: #FFF;
+}
+
+/* --------- Arrows Styles ----------- */
+.arrows {
+  margin-top: 20px;
+  }
+
+.arrows a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  }
+
+.arrows a:first-child {
+  margin-right: 40px;
+  }
+  
+.memory-game {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.controls label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.controls select, .controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.controls select {
+  background-color: #fff;
+}
+
+.controls button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}
+
+.controls button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.timer {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(255,255,255,0.5), rgba(0,0,0,0.1));
+  z-index: 1;
+  transition: opacity 0.3s;
+}
+
+.card:hover::before {
+  opacity: 0;
+}
+
+.card.flipped, .card.matched {
+  transform: rotateY(180deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card.matched {
+  background-color: #4CAF50;
+  color: white;
+  cursor: default;
+}
+
+.card .content {
+  position: relative;
+  z-index: 2;
+}
+
+.card .letter {
+  font-size: 48px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  display: none;
+}
+
+.card.flipped img {
+  display: block;
+}
+
+.card.flipped .letter {
+  display: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/mathCards.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="css/home.css"> -->
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg">
+<title>Memory Game | GiggleLearn</title>
+</head>
+<body onload="playAudio()">
+  <div class="nav-brand">
+    <a href="home.html"><img src="assets/science/img/Friendly-Bee.svg"  width="70" alt="Get Brands"></a>
+    <a href="home.html"><span class="brand">GiggleLearn</span></a>
+</div>
+  <div class="difficulty-selection">
+    <label for="difficulty">Select Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+    <button id="start-game">Start Game</button>
+  </div>
+<div class="question"> save these cards in your brain </div>
+<div id="game-container">
+ 
+</div>
+<div class="message"></div>
+<div class="score"></div>
+
+<audio id="audio" src="assets/math/audio/calm.mp3"></audio>
+
+<script src="js/mathCards.js"></script>
+
+</body>
+</html>

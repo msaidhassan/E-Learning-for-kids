@@ -1,0 +1,1036 @@
+{
+  "Primary": {
+    "Problem-Solving": [
+      {
+        "question": "There are 3 red balls and 2 blue balls in a bag. How many balls are there in total?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Sarah has 4 cookies and she eats 2. How many cookies does she have left?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "Tom has 5 toy cars and his friend gives him 2 more. How many toy cars does Tom have now?",
+        "choices": [
+          "2",
+          "5",
+          "7",
+          "10"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "Alex has 6 pencils and 3 pens in his backpack. How many writing utensils does he have in total?",
+        "choices": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Lily has 8 apples in her basket. She gives 4 apples to her friend. How many apples does Lily have left?",
+        "choices": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4"
+      }
+    ],
+    "Numbers": [
+      {
+        "question": "What number comes after 7?",
+        "choices": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Which is bigger: 6 or 8?",
+        "choices": [
+          "6",
+          "8"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What number comes before 15?",
+        "choices": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14"
+      },
+      {
+        "question": "Which is smaller: 4 or 9?",
+        "choices": [
+          "4",
+          "9"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What number is one more than 18?",
+        "choices": [
+          "18",
+          "19",
+          "20",
+          "21"
+        ],
+        "answer": "19"
+      }
+    ],
+    "Computation": [
+      {
+        "question": "2 + 3 = ?",
+        "choices": [
+          "1",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "5 - 1 = ?",
+        "choices": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "2 + 33 = ?",
+        "choices": [
+          "1",
+          "35",
+          "6",
+          "7"
+        ],
+        "answer": "35"
+      },
+      {
+        "question": "50 - 1 = ?",
+        "choices": [
+          "49",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "49"
+      },
+      {
+        "question": "2 + 13 = ?",
+        "choices": [
+          "1",
+          "5",
+          "6",
+          "15"
+        ],
+        "answer": "15"
+      }
+    ],
+    "Measurement": [
+      {
+        "question": "Which is taller: a tree or a flower?",
+        "choices": [
+          "tree",
+          "flower"
+        ],
+        "answer": "tree"
+      },
+      {
+        "question": "Which is heavier: a book or a feather?",
+        "choices": [
+          "book",
+          "feather"
+        ],
+        "answer": "book"
+      },
+      {
+        "question": "Which is more expensive: a cup of coffee or a gallon of gas?",
+        "choices": [
+          "cup of coffee",
+          "gallon of gas"
+        ],
+        "answer": "gallon of gas"
+      },
+      {
+        "question": "Which is faster: a bicycle or a car?",
+        "choices": [
+          "bicycle",
+          "car"
+        ],
+        "answer": "car"
+      },
+      {
+        "question": "Which has more pages: a magazine or a book?",
+        "choices": [
+          "magazine",
+          "book"
+        ],
+        "answer": "book"
+      }
+    ],
+    "Geometry": [
+      {
+        "question": "How many sides does a square have?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "How many corners does a triangle have?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "How many legs does a cat have?",
+        "choices": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "How many wheels does a bicycle have?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "How many eyes does a human have?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  "Upper Elementary": {
+    "Problem-Solving": [
+      {
+        "question": "You need to find the number that solves the equation 3x−5=7. Which of these numbers is the correct solution?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "You have a number that, when multiplied by 4, gives 36. What is the number?",
+        "choices": [
+          "1",
+          "9",
+          "3",
+          "4"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "You have a number that, when divided by 3, gives 5. What is the number?",
+        "choices": [
+          "2",
+          "5",
+          "7",
+          "15"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "Which of the following fractions is equivalent to 1/2?",
+        "choices": [
+          "1/3",
+          "2/8",
+          "3/6",
+          "2/6"
+          
+        ],
+        "answer": "3/6"
+      },
+      {
+        "question": "Find the number that, when added to 15, gives 28.",
+        "choices": [
+          "13",
+          "4",
+          "10",
+          "11"
+        ],
+        "answer": "13"
+      }
+    ],
+    "Numbers": [
+      {
+        "question": "Which of the following decimals is the largest?",
+        "choices": [
+          "0.62",
+          "0.56",
+          "0.75",
+          "0.49"
+        ],
+        "answer": "0.75"
+      },
+      {
+        "question": "Which of the following fractions is simplified to its lowest terms?",
+        "choices": [
+          "4/8",
+          "3/9",
+          "2/5",
+          "6/12"
+        ],
+        "answer": "2/5"
+      },
+      {
+        "question": "Which of the following numbers is an even number?",
+        "choices": [
+          "12",
+          "13",
+          "15",
+          "17"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "In the number 7,825, what is the place value of the digit 8?",
+        "choices": [
+          "Units",
+          "Tens",
+          "Hundreds",
+          "Thousands"
+        ],
+        "answer": "Hundreds"
+      },
+      {
+        "question": "What is the result of 5.5 - 2.75  ?",
+        "choices": [
+          "2.75",
+          "2.5",
+          "2.25",
+          "3.5"
+        ],
+        "answer": "2.75"
+      }
+    ],
+    "Computation": [
+      {
+        "question": "What is the sum of 456 and 789?",
+        "choices": [
+          "1145",
+          "1235",
+          "1245",
+          "1255"
+        ],
+        "answer": "1245"
+      },
+      {
+        "question": "What is the result of subtracting 2.75 from 5.80?",
+        "choices": [
+          "2.05",
+          "2.15",
+          "3.05",
+          "3.15"
+        ],
+        "answer": "3.05"
+      },
+      {
+        "question": "What is the product of 12 and 8?",
+        "choices": [
+          "80",
+          "86",
+          "92",
+          "96"
+        ],
+        "answer": "96"
+      },
+      {
+        "question": "What is 14.4 divided by 1.2?",
+        "choices": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "Using a calculator, what is (25.5×2)(10.2+4.3)?",
+        "choices": [
+          "30.5",
+          "31.2",
+          "32.8",
+          "35.4"
+        ],
+        "answer": "31.2"
+      }
+    ],
+    "Measurement": [
+      {
+        "question": "What is the area of a rectangle with a length of 8 cm and a width of 5 cm?",
+        "choices": [
+          "13 cm²",
+          "30 cm²",
+          "40 cm²",
+          "48 cm²"
+        ],
+        "answer": "40 cm²"
+      },
+      {
+        "question": "If one apple weighs 150 grams, what is the total mass of 4 apples?",
+        "choices": [
+          "450 grams",
+          "500 grams",
+          "600 grams",
+          "750 grams"
+        ],
+        "answer": "600 grams"
+      },
+      {
+        "question": "What is the volume of a box that is 3 meters long, 2 meters wide, and 4 meters high?",
+        "choices": [
+          "18 cubic meters",
+          "20 cubic meters",
+          "24 cubic meters",
+          "30 cubic meters"
+        ],
+        "answer": "24 cubic meters"
+      },
+      {
+        "question": "What is the circumference of a circle with a radius of 7 cm? (Use π≈3.14)",
+        "choices": [
+          "21.98 cm",
+          "38.48 cm",
+          "43.96 cm",
+          "44.00 cm"
+        ],
+        "answer": "43.96 cm"
+      },
+      {
+        "question": "What is the perimeter of a square with each side measuring 6 meters?",
+        "choices": [
+          "18 meters",
+          "20 meters",
+          "24 meters",
+          "30 meters"
+        ],
+        "answer": "24 meters"
+      }
+    ],
+    "Geometry": [
+      {
+        "question": "What type of angle is formed when two lines meet to form a right angle?",
+        "choices": [
+          "Acute angle",
+          "Obtuse angle",
+          "Right angle",
+          "Reflex angle"
+        ],
+        "answer": " Right angle"
+      },
+      {
+        "question": "Which pair of triangles are similar?",
+        "choices": [
+          "One triangle has sides 3 cm, 4 cm, and 5 cm, and the other has sides 6 cm, 8 cm, and 10 cm",
+          "One triangle has sides 3 cm, 4 cm, and 5 cm, and the other has sides 4 cm, 5 cm, and 6 cm",
+          "One triangle has sides 3 cm, 4 cm, and 5 cm, and the other has sides 2 cm, 3 cm, and 4 cm",
+          "One triangle has sides 3 cm, 4 cm, and 5 cm, and the other has sides 9 cm, 12 cm, and 15 cm"
+        ],
+        "answer": "One triangle has sides 3 cm, 4 cm, and 5 cm, and the other has sides 6 cm, 8 cm, and 10 cm"
+      },
+      {
+        "question": "Which shape has rotational symmetry?",
+        "choices": [
+          "Square",
+          "Rectangle",
+          "Equilateral triangle",
+          "Scalene triangle"
+        ],
+        "answer": "Square"
+      },
+      {
+        "question": "Which statement about congruent shapes is true?",
+        "choices": [
+          "They have the same shape but may have different sizes",
+          "They have the same size but may have different shapes",
+          "They have the same size and shape",
+          "They have neither the same size nor the same shape"
+        ],
+        "answer": "They have the same size and shape"
+      },
+      {
+        "question": "In a triangle, what is the sum of the measures of its interior angles?",
+        "choices": [
+          "90 degrees",
+          "180 degrees",
+          "270 degrees",
+          "360 degrees"
+        ],
+        "answer": "180 degrees"
+      }
+    ]},
+    "Middle School": {
+      "Problem-Solving": [
+        {
+          "question": "If 4 friends share 12 candies equally, how many candies does each friend get?",
+          "choices": [
+            "2 candies",
+            "3 candies",
+            "4 candies",
+            "6 candies"
+          ],
+          "answer": "3 candies"
+        },
+        {
+          "question": "If a recipe to make 6 cookies requires 1 cup of flour, how much flour is needed to make 12 cookies?",
+          "choices": [
+            "1/2 cup",
+            "1 cup",
+            "1 1/2 cups",
+            "2 cups"
+          ],
+          "answer": "2 cups"
+        },
+        {
+          "question": "If 3 apples cost $1.50, how much would 5 apples cost?",
+          "choices": [
+            "$1.00",
+            "$2.00",
+            "$2.50",
+            "$3.00"
+          ],
+          "answer": "$2.50"
+        },
+        {
+          "question": "If a square has a side length of 2 inches, how long would the side of a similar square be if it is scaled by a factor of 3?",
+          "choices": [
+            "3 inches",
+            "4 inches",
+            "5 inches",
+            "6 inches"
+          ],
+          "answer": "6 inches"
+        },
+        {
+          "question": "If 2 friends take turns playing with a toy for 10 minutes each, how long do they play together in total?",
+          "choices": [
+            "10 minutes",
+            "15 minutes",
+            "20 minutes",
+            "25 minutes"
+          ],
+          "answer": "20 minutes"
+        }
+      ],
+      "Numbers": [
+        {
+          "question": "Which of the following numbers is a rational number?",
+          "choices": [
+            "0.5",
+            "π",
+            "√2​",
+            "√9"
+          ],
+          "answer": "0.5"
+        },
+        {
+          "question": "What is 2^3 ?",
+          "choices": [
+            "6",
+            "8",
+            "12",
+            "16"
+          ],
+          "answer": "8"
+        },
+        {
+          "question": "Write 5,000 in scientific notation?",
+          "choices": [
+            "5 × 10",
+            "5 × 10³",
+            " 5 × 10⁴",
+            "5 × 10⁵"
+          ],
+          "answer": "5 × 10⁴"
+        },
+        {
+          "question": "If a basket has 3 red apples and 5 green apples, what is the ratio of red apples to green apples?",
+          "choices": [
+            "3:5",
+            "5:3",
+            "3:8",
+            "8:3"
+          ],
+          "answer": "3:5"
+        },
+        {
+          "question": "If you have 20 marbles and 4 of them are blue, what percentage of the marbles are blue?",
+          "choices": [
+            "8%",
+            "19%",
+            "20%",
+            "21%"
+          ],
+          "answer": "20%"
+        }
+      ],
+      "Computation": [
+        {
+          "question": "What is 2.5 + 3.75 = ?",
+          "choices": [
+            "5.25",
+            "6.25",
+            "6.5",
+            "7.25"
+          ],
+          "answer": "6.5"
+        },
+        {
+          "question": "What is 5/8 - 1/4 = ?",
+          "choices": [
+            "1/8",
+            "1/4",
+            "3/8",
+            "3/4"
+          ],
+          "answer": "3/8"
+        },
+        {
+          "question": "What is 3.1/2 + 2.2/3 = ?",
+          "choices": [
+            "6.1/6",
+            "7.1/3",
+            "8.1/6",
+            "9.1/3"
+          ],
+          "answer": "7.1/3"
+        },
+        {
+          "question": "What is 3/4 ÷ 1/2  = ?",
+          "choices": [
+            "1/8",
+            "1/2",
+            "3/2",
+            "4/3"
+          ],
+          "answer": "3/2"
+        },
+        {
+          "question": "Estimate the product of 2.5×3.8",
+          "choices": [
+            "10",
+            "51",
+            "6",
+            "15"
+          ],
+          "answer": "15"
+        }
+      ],
+      "Measurement": [
+        {
+          "question": "If Sarah runs 3 miles in 30 minutes, what is her average speed in miles per hour?",
+          "choices": [
+            "3 mph",
+            "4 mph",
+            "5 mph",
+            "6 mph"
+          ],
+          "answer": "4 mph"
+        },
+        {
+          "question": "Which unit would you use to measure the weight of a textbook?",
+          "choices": [
+            "Kilogram (kg)",
+            "Meter (m)",
+            "Liter (L)",
+            "Second (s)"
+          ],
+          "answer": "Kilogram (kg)"
+        },
+        {
+          "question": "If the scale of a map is 1 inch represents 5 miles, how many inches on the map would represent a distance of 25 miles?",
+          "choices": [
+            "2 inches",
+            "3 inches",
+            "4 inches",
+            "5 inches"
+          ],
+          "answer": "4 inches"
+        },
+        {
+          "question": "If a tree casts a shadow of 10 feet at the same time a 3-foot-tall fence post casts a shadow of 2 feet, how tall is the tree?",
+          "choices": [
+            "12 feet",
+            "15 feet",
+            "20 feet",
+            "25 feet"
+          ],
+          "answer": "20 feet"
+        },
+        {
+          "question": "What is the surface area of a cube with a side length of 4 inches?",
+          "choices": [
+            "16 square inches",
+            "24 square inches",
+            "32 square inches",
+            "48 square inches"
+          ],
+          "answer": "48 square inches"
+        }
+      ],
+      "Geometry": [
+        {
+          "question": "What is the slope of a line that passes through points (2, 3) and (4, 7)?",
+          "choices": [
+            "1/2",
+            "2/3",
+            "3/2",
+            "2"
+          ],
+          "answer": "2"
+        },
+        {
+          "question": "Which of the following shapes has 6 faces, 8 vertices, and 12 edges?",
+          "choices": [
+            "Sphere",
+            "Cube",
+            "Cylinder",
+            "Cone"
+          ],
+          "answer": "Cube"
+        },
+        {
+          "question": "Which pair of lines are parallel?",
+          "choices": [
+            "y=2x+3 and y=2x−1",
+            "y=3x+1 and y=-1/3x+2",
+            "y=-2x+4 and y=2x+4",
+            "y=1/2x+3 and y=2x+3"
+          ],
+          "answer": "y=2x+3 and y=2x−1"
+        },
+        {
+          "question": "In a right triangle, if one leg measures 5 units and the other leg measures 12 units, what is the length of the hypotenuse?",
+          "choices": [
+            "13 units",
+            "15 units",
+            "17 units",
+            "20 units"
+          ],
+          "answer": "13 units"
+        },
+        {
+          "question": "If a car travels 50 miles in 2 hours, what is its average speed in miles per hour?",
+          "choices": [
+            "20 mph",
+            "25 mph",
+            "30 mph",
+            "35 mph"
+          ],
+          "answer": "25 mph"
+        }
+      ]
+    },
+    "High School": {
+      "Problem-Solving": [
+        {
+          "question": "Which proof technique involves assuming the opposite of what needs to be proven and then arriving at a contradiction?",
+          "choices": [
+            "Direct proof",
+            "Proof by contradiction",
+            "Inductive proof",
+            "Proof by exhaustion"
+          ],
+          "answer": "Proof by contradiction"
+        },
+        {
+          "question": "Which algorithm sorts a list by repeatedly stepping through the list, comparing adjacent elements, and swapping them if they are in the wrong order?",
+          "choices": [
+            "Merge sort",
+            "Insertion sort",
+            "Quick sort",
+            "Selection sort"
+          ],
+          "answer": "Insertion sort"
+        },
+        {
+          "question": "In a proof by mathematical induction, what are the two main steps involved?",
+          "choices": [
+            "Base case and hypothesis",
+            "Hypothesis and conclusion",
+            "Inductive step and conclusion",
+            "Base case and inductive step"
+          ],
+          "answer": "Base case and inductive step"
+        },
+        {
+          "question": "Which algorithm typically has the best average and worst-case time complexity for sorting a list of n elements?",
+          "choices": [
+            "Bubble sort",
+            "Quick sort",
+            "Selection sort",
+            "Insertion sort"
+          ],
+          "answer": "Quick sort"
+        },
+        {
+          "question": "What type of proof uses logical arguments based on geometric principles to establish the truth of a statement about shapes or figures?",
+          "choices": [
+            "Algebraic proof",
+            "Inductive proof",
+            "Deductive proof",
+            "Geometric proof"
+          ],
+          "answer": "Geometric proof"
+        }
+      ],
+      "Numbers": [
+        {
+          "question": "Which of the following numbers is a real number?",
+          "choices": [
+            "√-1",
+            "3/0",
+            "π",
+            "0.3"
+          ],
+          "answer": "π"
+        },
+        {
+          "question": "Which type of number is √25?",
+          "choices": [
+            "Irrational",
+            "Rational",
+            "Integer",
+            "Natural"
+          ],
+          "answer": "Rational"
+        },
+        {
+          "question": "Which inequality represents x is greater than or equal to 3?",
+          "choices": [
+            "x > 3",
+            "x < 3",
+            "x ≥ 3",
+            "x ≤ 3"
+          ],
+          "answer": "x ≥ 3"
+        },
+        {
+          "question": "What is the solution set of the inequality 2x+5<15?",
+          "choices": [
+            "x > 5",
+            "x < 5",
+            "x ≥ 5",
+            "x ≤ 5"
+          ],
+          "answer": "x ≤ 5"
+        },
+        {
+          "question": "Which inequality represents the absolute value of x is less than 4 ?",
+          "choices": [
+            "∣x∣ < 4",
+            "∣x∣ > 4",
+            "∣x∣ ≤ 4",
+            "∣x∣ ≥ 4"
+          ],
+          "answer": "∣x∣ < 4"
+        }
+      ],
+      "Computation": [
+        {
+          "question": "3x^2+4x−2x^2+5x?",
+          "choices": [
+            "x^2+9x",
+            "x^2+2x",
+            "5x^2+9x",
+            "x^2+7x"
+          ],
+          "answer": "x^2+7x"
+        },
+        {
+          "question": "2y^2−3y−(y^2−2y)",
+          "choices": [
+            "y^2−y",
+            "y^2−5y",
+            "y^2+y",
+            "y^2−2y"
+          ],
+          "answer": "y^2−y"
+        },
+        {
+          "question": " √25 + √9",
+          "choices": [
+            "2√7",
+            "8",
+            "10",
+            "7"
+          ],
+          "answer": "8"
+        },
+        {
+          "question": "(4x^2−3x+7)−(2x^2+5x−3)",
+          "choices": [
+            "2x^2−8x+10",
+            "2x^2+8x+10",
+            "2x^2−8x+4",
+            "2x^2+8x+4"
+          ],
+          "answer": "2x^2−8x+10"
+        },
+        {
+          "question": "What is (2^3×3^2)÷(2^2×3^1)?",
+          "choices": [
+            "2",
+            "5",
+            "6",
+            "17"
+          ],
+          "answer": "6"
+        }
+      ],
+      "Measurement": [
+        {
+          "question": "Which of the following best describes velocity?",
+          "choices": [
+            "The speed of an object",
+            "The distance traveled by an object",
+            "The rate of change of position of an object with respect to time",
+            "The force applied to an object"
+          ],
+          "answer": "The rate of change of position of an object with respect to time"
+        },
+        {
+          "question": "Acceleration is defined as:",
+          "choices": [
+            "The change in speed of an object",
+            "The direction of motion of an object",
+            "The force acting on an object",
+            "The rate of change of velocity of an object"
+          ],
+          "answer": "The rate of change of velocity of an object"
+        },
+        {
+          "question": "Precision in measurements refers to:",
+          "choices": [
+            "How close a measured value is to the true value",
+            "How consistent repeated measurements are",
+            "How small the smallest measurable division is",
+            "How sensitive the measuring instrument is"
+          ],
+          "answer": "How consistent repeated measurements are"
+        },
+        {
+          "question": "Tolerance in measurements refers to:",
+          "choices": [
+            "The degree of consistency between measurements",
+            "The maximum acceptable deviation from a desired measurement",
+            "The smallest possible measurement that can be made",
+            "The accuracy of the measuring instrument"
+          ],
+          "answer": "The maximum acceptable deviation from a desired measurement"
+        },
+        {
+          "question": "If a car travels 120 miles in 2 hours, what is its average velocity?",
+          "choices": [
+            "60 mph",
+            "70 mph",
+            "80 mph",
+            "90 mph"
+          ],
+          "answer": "60 mph"
+        }
+      ],
+      "Geometry": [
+        {
+          "question": "In a right triangle, if the lengths of the legs are 6 units and 8 units, what is the length of the hypotenuse?",
+          "choices": [
+            "10 units",
+            "12 units",
+            "14 units",
+            "15 units"
+          ],
+          "answer": "10 units"
+        },
+        {
+          "question": "What is the magnitude of the vector v=⟨3,4⟩?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "answer": "5"
+        },
+        {
+          "question": "What is the resultant vector of a=⟨2,3⟩ and b=⟨4,1⟩?",
+          "choices": [
+            "⟨6,4⟩",
+            "⟨6,3⟩",
+            "⟨2,4⟩",
+            "⟨2,1⟩"
+          ],
+          "answer": "⟨6,4⟩"
+        },
+        {
+          "question": "If a point (x,y) is translated by 3 units to the right and 2 units down, what are the coordinates of the new point?",
+          "choices": [
+            "(x+3,y−2)",
+            "(x−3,y+2)",
+            "(x+2,y−3)",
+            "(x−2,y+3)"
+          ],
+          "answer": "(x+3,y−2)"
+        },
+        {
+          "question": "What are the coordinates of the point (1,2) after a 90-degree rotation counterclockwise around the origin?",
+          "choices": [
+            "(−1,2)",
+            "(2,−1)",
+            "(−2,1)",
+            "(1,−2)"
+          ],
+          "answer": "(−2,1)"
+        }
+      ]
+    }
+}

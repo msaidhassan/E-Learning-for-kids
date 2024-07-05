@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="shortcut icon" href="assets/science/img/Friendly-Bee.svg">
+    <title>Sign Up | GiggleLearn</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="home.html"><img src="assets/science/img/Friendly-Bee.svg"  width="70" alt="Get Brands"></a>
+        <a href="home.html"><span class="brand">GiggleLearn</span></a>    
+    </div>
+
+    <div class="register-overall-container">
+        <div class="register">
+            <h2>Sign up | <span class="individual">Individual Account</span></h2>
+            
+            <div class="register-info">
+                <form  name="registration_form" action="home.html">
+                    <div class="input-div one">
+                        <div class="div">
+                            <h5 class="first">First name</h5>
+                            <input type="text" name="firsname" id="firstname" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="div">
+                            <h5 class="last">Last name</h5>
+                            <input type="text" name="lastname" id="lastname" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="div">
+                            <h5>Username / Email</h5>
+                            <input type="email" name="email" id="email" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="div">
+                            <h5 class="first">Password</h5>
+                            <input type="password" name="password" id="password-input" class="input">
+                            <i class="fas fa-eye eye" id="toggle-password-btn" onclick="togglePasswordVisibility()"></i>
+                        </div>
+
+                    </div>
+                    <a href="#"><input class="register-btn" type="button" onclick="registration()" value="Sing up"></a>
+                    <a href="#" class="account">Already have an account? <a href="login.html" class="login">Log In</a> </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        var passwordInput = document.getElementById('password-input');
+        var togglePasswordBtn = document.getElementById('toggle-password-btn');
+        var isPasswordVisible = false;
+
+        function togglePasswordVisibility() {
+            if (isPasswordVisible) {
+            passwordInput.type = 'password';
+
+            } else {
+            passwordInput.type = 'text';
+
+            }
+            isPasswordVisible = !isPasswordVisible;
+        }
+
+    </script>
+
+</body>
+</html>

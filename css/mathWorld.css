@@ -1,0 +1,170 @@
+
+
+/* --------- Ads Section ------------- */
+
+.ads {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#ad-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.ads i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: rgb(37, 37, 37);
+    border: 1px solid rgb(79, 79, 79);
+    cursor: pointer;
+}
+#ad-text {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* --------- ./ Ads Section ------------- */
+
+/* --------- Subjects Section ------------- */
+img {
+    width: 150px;
+}
+
+.subjects {
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+    position: fixed;
+}   
+
+/*---------------- numbers Styles ----------------*/
+.math {
+    width: 150px;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+    animation: shake 0.5s ease infinite;
+}
+
+.text {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 99;
+}
+
+.text::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.explore-numbers-txt {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: #8764d4;
+}
+
+.explore-numbers-txt::after {
+    top: 43px;
+    left: 80%;
+    border-top: 10px solid #8764d4;
+}
+
+
+/*------------ math-cards Styles --------------*/
+.math-cards {
+    position: absolute;
+    top: 320px;
+    left: 320px;
+    
+}
+
+.math-cards .cards {
+    width: 250px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    z-index: 99;
+    transform: rotate(-10deg);
+
+}
+
+.math-cards-txt {
+    background-color: #37d5e4;
+
+}
+
+.math-cards-txt::after {
+    top: 43px;
+    left: 20%;
+    border-top: 10px solid  #37d5e4;
+}
+
+/*------------------  galaxy-of-numbers Styles ---------------*/
+.galaxy-of-numbers {
+    position: absolute;
+    top: 120px;
+    left: 800px;
+}
+
+.ice-land {
+    width: 160px;
+}
+
+.galaxy-of-numbers img {
+    width: 160px;
+}
+
+.galaxy-of-numbers-txt {
+    background-color: #94cf72;
+}
+
+.galaxy-of-numbers-txt::after {
+    top: 43px;
+    left: 15%;
+    border-top: 10px solid #94cf72;
+}
+
+.number {
+    position: absolute;
+    left: 490px;
+    top: 80px;
+}
+
+/*--------------- Path Styles ----------- */
+.path {
+    position: fixed;
+}
+
+#path1 {
+    position: absolute;
+    top: 320px;
+    left: 210px;
+    transform: rotate(50deg);
+}
+
+#path2 {
+    position: absolute;
+    top: 320px;
+    left: 690px;
+    transform: rotate(-50deg);
+}
+
+
