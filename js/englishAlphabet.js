@@ -14,7 +14,7 @@ for (var i = 0; i < letters.length; i++) {
 
 
     newAudio.src = `assets/english/audio/${letter}.mp3`;
-    newImg.src=`../assets/english/img/${letter}.png`
+    newImg.src=`../assets/english/img/${letter.toLowerCase()}.png`
 
     newImg.style.height="200px"
 
