@@ -9,9 +9,9 @@ const progressContainer = document.getElementById('progress-container');
 const scoreContainer = document.getElementById('score-container');
 const muteImage = document.getElementById('mute-image');
 
-const gameAudio = new Audio('../assets/math/audio/game.mp3'); 
-const corectAudio = new Audio('../assets/math/audio/correct.mp3');
-const wrongAudio = new Audio('../assets/math/audio/wrong.mp3');
+const gameAudio = new Audio('assets/math/audio/game.mp3'); 
+const corectAudio = new Audio('assets/math/audio/correct.mp3');
+const wrongAudio = new Audio('assets/math/audio/wrong.mp3');
 const canvas = document.getElementById('game-canvas');
 const ctx = canvas.getContext('2d');
 
@@ -130,7 +130,7 @@ startGameButton.onclick = () => {
 muteImage.onclick = () => {
   if(gameAudio.muted){
     gameAudio.muted=false;
-     muteImage.src="../assets/math/img/speaker.png"
+     muteImage.src="assets/math/img/speaker.png"
     }
    else {gameAudio.muted=true; muteImage.src="../assets/math/img/mute.png"
 
