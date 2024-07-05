@@ -18,7 +18,7 @@ let letterInterval;
 let targetLetterAdded = false;
 let gameActive = false;
 const balloonImage = new Image();
-balloonImage.src = "../assets/arabic/img/ballon.jpg";
+balloonImage.src = "assets/arabic/img/ballon.jpg";
 balloonImage.onload = () => {
   startButton.disabled = false;
 };
@@ -26,7 +26,7 @@ balloonImage.onload = () => {
 // Preload all sound files
 const soundFiles = {};
 letters.forEach(letter => {
-  soundFiles[letter] = new Audio(`../assets/arabic/audio/${letter}.mp3`);
+  soundFiles[letter] = new Audio(`assets/arabic/audio/${letter}.mp3`);
 });
 
 class FallingLetter {
