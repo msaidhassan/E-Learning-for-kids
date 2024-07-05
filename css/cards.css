@@ -4,7 +4,7 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
-  background-image: url('assets/arabic/img/background3.jp.jpg');
+  background-image: url('../assets/arabic/img/background3.jp.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
