@@ -2,7 +2,7 @@ body {
   
     text-align: center;
     direction: rtl;
-    background-image: url('assets/arabic/img/alphapet ident.jpg');
+    background-image: url('./assets/arabic/img/alphapet ident.jpg');
     font-family: "Yusei Magic", sans-serif;
     background-size: cover;
     background-position: center;
