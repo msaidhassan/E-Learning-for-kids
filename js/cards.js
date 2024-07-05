@@ -18,10 +18,10 @@ const timerElement = document.getElementById('timer');
 let timerInterval;
 let startTime;
 
-const flipSound = new Audio('../assets/arabic/audio/click.mp3');
-const matchSound = new Audio('../assets/arabic/audio/match.mp3');
-const winSound = new Audio('../assets/arabic/audio/win.mp3');
-const bgMusic = new Audio('../assets/arabic/audio/background.mp3');
+const flipSound = new Audio('assets/arabic/audio/click.mp3');
+const matchSound = new Audio('assets/arabic/audio/match.mp3');
+const winSound = new Audio('assets/arabic/audio/win.mp3');
+const bgMusic = new Audio('assets/arabic/audio/background.mp3');
 bgMusic.loop = true;
 
 // Shuffle function to randomize card order
