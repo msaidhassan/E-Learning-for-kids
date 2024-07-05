@@ -144,7 +144,7 @@ async function select(e) {
     correctAnswers++;
 
     const reptileName = reptiles[e.target.innerText].toLowerCase();
-    dom.reptileImage.src = `../assets/science/img/${reptileName}.png`;
+    dom.reptileImage.src = `assets/science/img/${reptileName}.png`;
     dom.reptileImage.style.display = 'block';
     dom.reptileSounds[reptileName].play();
 
