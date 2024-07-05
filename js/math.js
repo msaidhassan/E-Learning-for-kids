@@ -9,7 +9,7 @@ const progressContainer = document.getElementById('progress-container');
 const scoreContainer = document.getElementById('score-container');
 const muteImage = document.getElementById('mute-image');
 
-const gameAudio = new Audio('../assets/math/audio/game.mp3'); // Replace with your audio file path
+const gameAudio = new Audio('../assets/math/audio/game.mp3'); 
 const corectAudio = new Audio('../assets/math/audio/correct.mp3');
 const wrongAudio = new Audio('../assets/math/audio/wrong.mp3');
 const canvas = document.getElementById('game-canvas');
@@ -30,7 +30,7 @@ let aiming = false;
 let answerButtons;
 let score = 0;
 let timer;
-let timeLeft = 0;  // Set the time limit for each question
+let timeLeft = 0;  
 let currentQuestionIndex = 0;
 let questions = [];
 let timedown=0;
@@ -67,7 +67,6 @@ let answerLabels = ["A", "B", "C", "D"];
 startGameButton.onclick = () => {
   gameAudio.play();
   gameAudio.loop = true;
-  //startGameLoop();
   const grade = document.getElementById('grade').value;
   const level = document.getElementById('level').value;
 
@@ -287,7 +286,6 @@ function updateProgressBar() {
 
 function checkAnswer(answer) {
   clearInterval(timer);  // Stop the timer when an answer is selected
-  //alert(answer)
   if (answer == questions[currentQuestionIndex].answer /*|| answer=="true"*/  ) {
     corectAudio.play();
 
