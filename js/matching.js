@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
         audio.play();
       }
     } else {
-      audio.src = "../assets/english/audio/wrong_5.mp3";
+      audio.src = "assets/english/audio/wrong_5.mp3";
       audio.play();
     }
   }
