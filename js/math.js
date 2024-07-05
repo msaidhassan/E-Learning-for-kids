@@ -132,7 +132,7 @@ muteImage.onclick = () => {
     gameAudio.muted=false;
      muteImage.src="assets/math/img/speaker.png"
     }
-   else {gameAudio.muted=true; muteImage.src="../assets/math/img/mute.png"
+   else {gameAudio.muted=true; muteImage.src="assets/math/img/mute.png"
 
    }
 }
